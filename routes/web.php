@@ -13,3 +13,7 @@ Route::get('/om', function () {
 Route::get('/kontakt', function () {
     return view('contact');
 });
+
+Route::get('/infoskærm', function () {
+    return view('infoscreen');
+});
